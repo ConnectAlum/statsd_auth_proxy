@@ -23,4 +23,4 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: artifact
-          path: target/release/statsd_auth_proxy
+          path: target/release
