@@ -22,7 +22,7 @@ Made for statsd.
 ## Build
 
 ```bash
-cargo build --release
+cargo build --release --all-features
 ```
 
 ## Configuration
