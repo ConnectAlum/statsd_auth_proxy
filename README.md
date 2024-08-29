@@ -19,6 +19,12 @@ Made for statsd.
 ./statsd_auth_proxy --enable-debug
 ```
 
+## Build
+
+```bash
+cargo build --release
+```
+
 ## Configuration
 
 The configuration file is a JSON file with the following structure:
