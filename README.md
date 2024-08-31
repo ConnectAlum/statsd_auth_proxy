@@ -9,7 +9,7 @@ Made for statsd.
 ./statsd_auth_proxy 
 ```
 
-## With custom configuration
+## With custom configuration location
 ```bash
 ./statsd_auth_proxy --config config.json
 ```
@@ -39,3 +39,6 @@ The configuration file is a JSON file with the following structure:
   "bind": "0.0.0.0"
 }
 ```
+
+## Authentication
+Requests should be sent with the password/token before the payload, structured like this: `<pass>::<payload>`
